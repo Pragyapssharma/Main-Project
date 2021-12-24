@@ -3,9 +3,9 @@ import 'dart:io';
 void main(List<String> arguments) {
   print('Enter no. of Elements: ');
 
-  int Num = int.parse(stdin.readLineSync()!);
+  int N = int.parse(stdin.readLineSync()!);
   int Sum=0;
-  for (int i = 0; i < Num; ) {
+  for (int i = 0; i < N; ) {
   
     print('Enter the ${i + 1} Number: ');
     var input = int.parse(stdin.readLineSync()!);
